@@ -16,9 +16,3 @@ Finding Primes is a Python script to find primes.
 ### Benchmarker
 Benchmarker uses [Finding Primes](#finding-primes) to benchmark your computer performance. It runs all 4 Primes scripts (10k, 100k, 200k, 500k) and saves everything to a file called `benchmarker.md`. (Note you have to enter the results; I am not that good at concat and splicing in bash!)
 
-## Contents
-- [Header](#scripts)
-- [Python](#python)
-	- [Finding Primes](#finding-primes)
-
-
