@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./index.css" rel='stylesheet' />
+  <script src="./index.js" />
+  <meta charset='utf-8' />
+  <title>A Page</title>
+</head>
+<body>
+  <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2017%2F11%2Flofoten-islands-norway-aurora-borealis-northern-lights-NORWAYLIGHTS1017.jpg"/>
+  <div class="blur"></div>
+  <div class="body">
+    <h1>Forever's Generators</h1>
+    <h2>Select a button below to generate it.</h2>
+    <button onclick="u(100)">Username</button>
+    <button onclick="pw(12)">Password </button>
+    <button id="ph">Passphrase (not working)</button>
+    <button onclick="pc(true)">Phrase code</button>
+    <button id="rb" onclick="press()">No thanks, bye</button><br/><br/><span>Generated item: </span><span id="g">Nothing yet</span><br/><small>(Run u(number), pc(bool), pw(number), and ph(number) in the console to change the length of the outputs/combinations genetated)</small>
+  </div>
+</body>
+</html>
